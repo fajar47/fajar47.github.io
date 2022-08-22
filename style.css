@@ -19,3 +19,8 @@ footer {
 section {
   padding-top: 5rem;
 }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--bs-navbar-active-color);
+}
